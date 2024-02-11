@@ -2,7 +2,7 @@ import './TreeNode.css';
 import {useState} from "react";
 
 function TreeNodeItem({child, services}) {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(true);
     const TreeNodeOnCLick = () => {
         if (child.node === 1) {
             setIsOpen(!isOpen);
