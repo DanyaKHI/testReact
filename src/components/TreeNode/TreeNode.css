@@ -1,0 +1,21 @@
+.menu__list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.menu__item {
+    margin-left: 20px;
+}
+
+.menu__title {
+    cursor: pointer;
+}
+
+.menu__title:hover {
+    background: darkgray;
+}
+
+.menu__title:active {
+    background: gray;
+}
